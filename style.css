@@ -12,6 +12,8 @@ a {
     font-weight: bold;
 }
 
+/* HOME */
+
 body {
     max-width: 450px;
     margin: auto;
@@ -50,6 +52,21 @@ body {
     background: #193782ce;
 }
 
+footer {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+footer a {
+    transition: color .5s;
+}
+
+footer a:hover {
+    color: #208eb9;
+}
+
+/* MODALIDADES */
+
 #container-modalidades {
     display: flex;
     flex-flow: row wrap;
@@ -84,7 +101,6 @@ body {
 .flip-card-front-modalidade {
     padding: 20px 0;
 }
-
 
 .flip-card-front-modalidade, .flip-card-back-modalidade {
     position: absolute;
@@ -133,18 +149,7 @@ body {
     width: 20px;
 }
 
-footer {
-    font-size: 14px;
-    font-weight: 100;
-}
-
-footer a {
-    transition: color .5s;
-}
-
-footer a:hover {
-    color: #208eb9;
-}
+/* RESPONSIVIDADE */
 
 @media (max-width: 500px) {
     body {
