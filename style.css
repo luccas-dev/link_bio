@@ -11,3 +11,25 @@ body {
     text-align: center;
     background-color: #3f3f3f;
 }
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0 50px;
+}
+
+#container a {
+    text-decoration: none;
+    font-weight: bold;
+    
+    padding: 13px 0;
+    
+    border: 1px solid #fff;
+    border-radius: 8px;
+    
+    background: #DC5802;
+    color: #fff;
+
+    box-shadow: 0 2px 5px 0 #00000025;
+}
