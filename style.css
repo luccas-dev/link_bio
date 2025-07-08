@@ -15,21 +15,22 @@ a {
 body {
     max-width: 450px;
     margin: auto;
-    padding: 50px 40px;
+    padding: 50px 20px;
     text-align: center;
     background: url(./assets/images/bg-desktop-version.png) no-repeat center/cover;
 }
 
-span {
-    font-size: 38px;
-    font-weight: bold;
+img {
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 
 #container {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 50px 0 90px;
+    padding: 50px 0;
 }
 
 #container a {
@@ -39,14 +40,37 @@ span {
     border: 1px solid #fff;
     border-radius: 8px;
     
-    background: #DC5802;
+    background: #193782;
 
     box-shadow: 0 2px 5px 0 #00000025;
     transition: background .5s;
 }
 
 #container a:hover {
-    background: #dc5902ce;
+    background: #193782ce;
+}
+
+#container-modalidades {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#container-modalidades .modalidade {
+    width: 150px;
+    border: 1px solid #fff;
+    background: #193782;
+    border-radius: 8px;
+
+    padding: 16px 0;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
 }
 
 footer {
