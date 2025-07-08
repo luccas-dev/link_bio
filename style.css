@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 body {
@@ -20,16 +26,20 @@ body {
 }
 
 #container a {
-    text-decoration: none;
-    font-weight: bold;
-    
     padding: 13px 0;
     
     border: 1px solid #fff;
     border-radius: 8px;
     
     background: #DC5802;
-    color: #fff;
 
     box-shadow: 0 2px 5px 0 #00000025;
+}
+
+footer a {
+    transition: color .5s;
+}
+
+footer a:hover {
+    color: #208eb9;
 }
