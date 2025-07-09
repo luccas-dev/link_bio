@@ -149,6 +149,21 @@ footer a:hover {
     width: 20px;
 }
 
+/* VALORES */
+
+#container ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.price {
+    color: #193782;
+    font-weight: bold;
+}
+
 /* RESPONSIVIDADE */
 
 @media (max-width: 500px) {
