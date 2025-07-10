@@ -20,7 +20,7 @@ body {
     margin: auto;
     padding: 50px 20px;
     text-align: center;
-    background: url(./assets/images/bg-desktop-version.png) no-repeat center/cover;
+    background: url(./assets/images/bg-desktop-version.png) no-repeat center / cover;
 }
 
 #logo {
@@ -56,6 +56,8 @@ body {
 footer {
     font-size: 14px;
     font-weight: 100;
+
+    padding: 20px 0;
 }
 
 footer a {
@@ -169,12 +171,15 @@ footer a:hover {
 
 @media (max-width: 500px) {
     body {
-        height: auto;
-        padding: 30px 40px;
         background: url(./assets/images/bg-mobile-version.png) no-repeat center/cover;
+        background-attachment: fixed;
     }
 
     #container {
-        padding: 30px 0 50px;
+        padding: 50px 0;
+    }
+
+    #container-modalidades {
+        gap: 20px;
     }
 }
