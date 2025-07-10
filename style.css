@@ -157,7 +157,7 @@ footer a:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .price {
@@ -169,12 +169,9 @@ footer a:hover {
 
 @media (max-width: 500px) {
     body {
+        height: auto;
         padding: 30px 40px;
         background: url(./assets/images/bg-mobile-version.png) no-repeat center/cover;
-    }
-
-    span {
-        font-size: 32px;
     }
 
     #container {
