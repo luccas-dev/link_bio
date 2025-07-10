@@ -16,6 +16,7 @@ a {
 
 body {
     max-width: 450px;
+    height: 100vh;
     margin: auto;
     padding: 50px 20px;
     text-align: center;
